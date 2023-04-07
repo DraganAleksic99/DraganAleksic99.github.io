@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" href="/favicon/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500&family=Open+Sans&display=swap" rel="stylesheet">
+    <noscript>
+        <h1>Javascript is required!</h1>
+        <p>You cannot use this page withoutJavascript</p>
+    </noscript>
+    <script src="./main.js" defer></script>
+    <title>Ensome</title>
+</head>
+
+<body>
+
+    <a class="screen-reader-shortcut" href="#main-content">Skip to main content</a>
+
+    <header role="banner">
+
+        <div class="h-container">
+
+            <a href="./index.html">
+                <img src="Images/logo_blue-small.png" alt="Home page"
+                    srcset="Images/logo_blue-small.png 92w, Images/logo_blue-large.png 165w"
+                    sizes="(max-width: 1000px) 92px, (min-width: 1001px) 165px">
+            </a>
+
+            <button aria-expanded="false" class="menu"><img src="Images/Menu_button.png" alt=""
+                width="26" height="18"><span class="visually-hidden">menu</span></button>
+
+            <nav role="navigation">
+
+                <ul role="list">
+                    <div hidden id="current">Current page</div>
+                    <li><a href="./index.html" aria-describedby="current">Home</a></li>
+                    <li><a href="./pages.html">Pages</a></li>
+                    <li><a href="./solutions.html">Solutions</a></li>
+                    <li><a href="./elements.html">Elements</a></li>
+                    <li><a href="./blog.html">Blog</a></li>
+                    <li><a href="./contacts.html">Contacts</a></li>
+                </ul>
+                
+            </nav>
+
+            <button class="cta"><img src="Images/Vector.png">Watch the demo</button>
+
+
+        </div>
+
+    </header>
+    
+    <main role="main">
+        
+        <section>
+            <div class="hero-section">
+                <div class="hero-section-copy">
+                    <h1 id="#main-content">Find true power in your data with Ensome</h1>
+                    <p> 
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque 
+                        laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi 
+                    </p>
+                    <div class="buttons">
+                        <button class="one">Learn more</button>
+                        <button class="two"><img
+                                                src="Images/Vector-hero-play.png">Watch the demo</button>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="Images/001_illustration.png" alt=""
+                        width="861" height="518">
+                </div>
+            </div>
+            <div class="clients-slider">
+                <div class="clients-slider-track">
+                    <img src="Images/Clients-small/logo_3.png" alt=""
+                        srcset="Images/Clients-small/logo_3.png 92w, Images/Clients-large/logo_3.png 185w"
+                        sizes="(max-width: 768px) 92px, (min-width: 768px) 185px">
+                    <img src="Images/Clients-small/logo_4.png" alt=""
+                        srcset="Images/Clients-small/logo_4.png 92w, Images/Clients-large/logo_4.png 185w"
+                        sizes="(max-width: 768px) 92px, (min-width: 768px) 185px">
+                    <img src="Images/Clients-small/logo_5.png" alt=""
+                        srcset="Images/Clients-small/logo_5.png 92w, Images/Clients-large/logo_5.png 185w"
+                        sizes="(max-width: 768px) 92px, (min-width: 768px) 185px">
+                    <img src="Images/Clients-small/logo_7.png" alt=""
+                        srcset="Images/Clients-small/logo_7.png 92w, Images/Clients-large/logo_2.png 185w"
+                        sizes="(max-width: 768px) 92px, (min-width: 768px) 185px">
+
+                    <img class="client" src="Images/Clients-small/logo_3.png" alt="">
+                    <img class="client" src="Images/Clients-small/logo_4.png" alt="">
+                    <img class="client" src="Images/Clients-small/logo_5.png" alt="">
+                    <img class="client" src="Images/Clients-small/logo_7.png" alt="">
+                    
+                    <img class="client" src="Images/Clients-small/logo_3.png" alt="">
+                    <img class="client" src="Images/Clients-small/logo_4.png" alt="">
+                    <img class="client" src="Images/Clients-small/logo_5.png" alt="">
+                    <img class="client" src="Images/Clients-small/logo_7.png" alt="">
+                </div>
+                
+            </div>
+        </section>
+        <section class="section-two">
+            <div class="section-two-wrapper">
+                <h1>Why our clients chosse Ensome?</h1>
+                <p>
+                    Doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis
+                     et quasi architecto beatae vitae dicta sunt explicabo.
+                </p>
+                <div class="cards">
+                    <div class="card">
+                        <img src="Images/02_icon_arrow_trending_lines.png"
+                            width="42" height="42">
+                        <h2>Embed Analytics</h2>
+                        <p>
+                            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                             praesentium voluptatum deleniti atque corrupti quos dolores.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <img src="Images/03_icon_key.png"
+                            width="42" height="42">
+                        <h2>Access control</h2>
+                        <p>
+                            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                             praesentium voluptatum deleniti atque corrupti quos dolores.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <img src="./Images/Vector1.png"
+                            loading="lazy" width="42" height="42">
+                        <h2>Machine Learning</h2>
+                        <p>
+                            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                             praesentium voluptatum deleniti atque corrupti quos dolores.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-three">
+            <div class="feature-section-one">
+                <div class="feature-section-one-image">
+                    <img src="Images/002_illustration.png" alt="" loading="lazy">
+                </div>
+                <div class="feature-section-one-copy">
+                    <h1>The newest business analytics platform</h1>
+                    <p>
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                         laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                    </p>
+                    <button>Discover more</button>
+                </div>
+            </div>
+            <div class="feature-section-two">
+                <div class="feature-section-two-image">
+                    <img src="Images/003_llustration.png" alt="" loading="lazy">
+                </div>
+                <div class="feature-section-two-copy">
+                    <h1>Radically new data solutions</h1>
+                    <p>
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                         laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                    </p>
+                    <button>Discover more</button>
+                </div>
+            </div>
+        </section>
+        <section class="reviews-section">
+            
+            <h1>What our customers say</h1>
+
+            <div class="carousel-buttons">
+                <button class="previous"><img src="Images/arrow-left-58.svg" alt="Previous"
+                                            width="30" height="30"></button>
+                <button class="next"><img src="Images/arrow-right-57.svg" alt="Next"
+                                        width="30" height="30"></button>
+            </div>
+
+            <div class="carousel">
+                
+                <ul role="list" class="carousel-track">
+                    <li class="carousel-slide">
+                        <div class="review-person">
+                            <img src="Images/001_img_person_1-small.png" alt="" 
+                                srcset="Images/001_img_person_1-small.png 50w, Images/001_img_person_1-large.png 80w"
+                                sizes="(max-width: 999px) 50px, (min-width: 1000px) 80px">
+                            <div class="review-person-name">
+                                <h2>Alex Bern</h2>
+                                <h3>CEO by PixelPerfect</h3>
+                            </div>
+                        </div>  
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate dolores molestiae alias,
+                             quod debitis ullam in quam rerum placeat laudantium quisquam at? Assumenda cupiditate eum
+                              neque ratione sint ut facere.
+                        </p>
+                    </li>
+                    <li class="carousel-slide">
+                        <div class="review-person">
+                            <img src="Images/001_img_person_1-small.png" alt="" 
+                                srcset="Images/001_img_person_1-small.png 50w, Images/001_img_person_1-large.png 80w"
+                                sizes="(max-width: 999px) 50px, (min-width: 1000px) 80px">
+                            <div class="review-person-name">
+                                <h2>Alex Bern</h2>
+                                <h3>CEO by PixelPerfect</h3>
+                            </div>
+                        </div> 
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate dolores molestiae alias,
+                             quod debitis ullam in quam rerum placeat laudantium quisquam at? Assumenda cupiditate eum
+                              neque ratione sint ut facere.
+                        </p>
+                    </li>
+                    <li class="carousel-slide">
+                        <div class="review-person">
+                            <img src="Images/001_img_person_1-small.png" alt="" 
+                                srcset="Images/001_img_person_1-small.png 50w, Images/001_img_person_1-large.png 80w"
+                                sizes="(max-width: 999px) 50px, (min-width: 1000px) 80px">
+                            <div class="review-person-name">
+                                <h2>Alex Bern</h2>
+                                <h3>CEO by PixelPerfect</h3>
+                            </div>
+                        </div> 
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate dolores molestiae alias,
+                             quod debitis ullam in quam rerum placeat laudantium quisquam at? Assumenda cupiditate eum
+                              neque ratione sint ut facere.
+                        </p>
+                    </li>
+                    <li class="carousel-slide">
+                        <div class="review-person">
+                            <img src="Images/001_img_person_1-small.png" alt="" 
+                                srcset="Images/001_img_person_1-small.png 50w, Images/001_img_person_1-large.png 80w"
+                                sizes="(max-width: 999px) 50px, (min-width: 1000px) 80px">
+                            <div class="review-person-name">
+                                <h2>Alex Bern</h2>
+                                <h3>CEO by PixelPerfect</h3>
+                            </div>
+                        </div> 
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate dolores molestiae alias,
+                             quod debitis ullam in quam rerum placeat laudantium quisquam at? Assumenda cupiditate eum
+                              neque ratione sint ut facere.
+                        </p>
+                    </li>
+                    <li class="carousel-slide">
+                        <div class="review-person">
+                            <img src="Images/001_img_person_1-small.png" alt="" 
+                                srcset="Images/001_img_person_1-small.png 50w, Images/001_img_person_1-large.png 80w"
+                                sizes="(max-width: 999px) 50px, (min-width: 1000px) 80px">
+                            <div class="review-person-name">
+                                <h2>Alex Bern</h2>
+                                <h3>CEO by PixelPerfect</h3>
+                            </div>
+                        </div> 
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate dolores molestiae alias,
+                             quod debitis ullam in quam rerum placeat laudantium quisquam at? Assumenda cupiditate eum
+                              neque ratione sint ut facere.
+                        </p>
+                    </li>
+                    <li class="carousel-slide">
+                        <div class="review-person">
+                            <img src="Images/001_img_person_1-small.png" alt="" 
+                                srcset="Images/001_img_person_1-small.png 50w, Images/001_img_person_1-large.png 80w"
+                                sizes="(max-width: 999px) 50px, (min-width: 1000px) 80px">
+                            <div class="review-person-name">
+                                <h2>Alex Bern</h2>
+                                <h3>CEO by PixelPerfect</h3>
+                            </div>
+                        </div> 
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate dolores molestiae alias,
+                             quod debitis ullam in quam rerum placeat laudantium quisquam at? Assumenda cupiditate eum
+                              neque ratione sint ut facere.
+                        </p>
+                    </li> 
+                    
+                </ul>
+                
+            </div>
+            
+        </section>
+        <section class="company-overview">
+            <h1>Ensome in numbers</h1>
+            <div class="company-overview-numbers">
+                <div class="company-overview-number">
+                    <p>
+                        Data analytics performed by Ensome's 
+                    </p>
+                    <aside>220</aside>
+                </div>
+                <div class="company-overview-number">
+                    <p>
+                        Data management performed by Ensome's 
+                    </p>
+                    <aside>390</aside>
+                </div>
+                <div class="company-overview-number">
+                    <p>
+                        Customers are satisfied with Ensome's work 
+                    </p>
+                    <aside>834+</aside>
+                </div>
+                <div class="company-overview-number">
+                    <p>
+                        Projects implemented by Ensome 
+                    </p>
+                    <aside>1830+</aside>
+                </div>
+            </div>
+        </section>
+        <section class="contact-us">
+            <div class="contact-us-copy">
+                <h1>Left questions? Contacts us now for a free consultation and free trial!</h1>
+                <div class="email">
+                    <h2>Email adress</h2>
+                    <a href="mailto:ensome@info.co.us">Reach out to us: ensome@info.co.us</a>
+                </div>
+                <div class="phone">
+                    <h2>Phone number</h2>
+                    <a href="tel:+1601-201-5580">Click to call: +1601-201-5580 </a>
+                </div>
+                <div class="adress">
+                    <h2>Adress</h2>
+                    <address>
+                        1642 Washington Avenue, Jackson, MS, <br>
+                        Mississippi, 39201
+                    </address>
+                </div>
+                <button>Contact us</button>
+            </div>
+            <div class="contact-us-form">
+                <h2>Contact us</h2>
+                <form action="">
+                    <div>
+                        <label for="name">Name *</label>
+                        <input type="text" name="name" id="name" required autocomplete="name">
+                    </div>
+
+                    <div>
+                        <label for="email">Email *</label>
+                        <input type="text" name="email" id="email" required autocomplete="email">
+                    </div>
+                        
+                    <div>
+                        <label for="theme">Theme</label>
+                        <input type="text" name="theme" id="theme">
+                    </div>
+
+                    <div>
+                        <label for="message">Message *</label>
+                        <input type="text" name="message" id="message" required minlength="20">
+                    </div>
+                    <button type="submit">Send</button>  
+                </form>
+            </div>
+        </section>
+        <section class="subscribe-section">
+            <div class="subscribe-section-copy">
+                <h1>Subscribe to our newsletter</h1>
+                <p>
+                    Lorem ipsum dolor, sit amet consectet adipisici elit. Molesti vitae,
+                     numquam quisqua cum iure fuga
+                </p>
+            </div>
+            <div class="subscribe-section-form">
+                <form action="">
+                    <label for="email">Your email *</label>
+                    <input type="email" name="email" id="email" required autocomplete="email">
+                    <button>Subscribe</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer role="contentinfo">
+        <div class="wrapper">
+            <div class="menu-logo-wrapper">
+                <div class="logo">
+                    <img src="Images/logo_blue-small.png" alt="" 
+                        srcset="Images/logo_blue-small.png 92w, Images/logo_blue-large.png 165w"
+                        sizes="(max-width: 1000px) 92px, (min-width: 1001px) 165px">
+                    <div class="social">
+                        <img src="Images/Social/icon_behance.png" alt="">
+                        <img src="Images/Social/icon_dribbble.png" alt="">
+                        <img src="Images/Social/icon_facebook.png" alt="">
+                        <img src="Images/Social/icon_linkedin.png" alt="">
+                        <img src="Images/Social/icon_twitter.png" alt="">
+                        <img src="Images/Social/icon_youtube.png" alt="">
+                    </div>
+                </div>
+                <div class="menu-secondary">
+                    <nav>
+                        <button>Quick links <img src="Images/icon_chevron_down_20.svg" alt=""></button>
+                        <ul role="list" id="off-screen">
+                            <li><a href="">Home</a></li>
+                            <li><a href="">About us</a></li>
+                            <li><a href="">Services</a></li>
+                            <li><a href="">Solutions</a></li>
+                        </ul>
+                    </nav>
+                    <hr>
+                    <nav>
+                        <button>Information <img src="Images/icon_chevron_down_20.svg" alt=""></button>
+                        <ul role="list" id="off-screen">
+                            <li><a href="">Contacts</a></li>
+                            <li><a href="">Our team</a></li>
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">FAQ</a></li>
+                        </ul>
+                    </nav>
+                    <hr>
+                    <nav>
+                        <button>Service <img src="Images/icon_chevron_down_20.svg" alt=""></button>
+                        <ul role="list" id="off-screen">
+                            <li><a href="">Pages</a></li>
+                            <li><a href="">Elements</a></li>
+                            <li><a href="">Site map</a></li>
+                            <li><a href="">Pricing</a></li>
+                        </ul>
+                    </nav>
+                    <hr>
+                </div>
+            </div>
+            <div class="copyright">
+                <div class="copyright-one">
+                    <a href="">Privacy policy</a>
+                    <a href="">Terms of use</a>
+                </div>
+                <div class="copyright-two"></div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
